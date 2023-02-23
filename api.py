@@ -10,7 +10,7 @@ class PetFriends:
     def __init__(self):
         self.base_url = "https://petfriends.skillfactory.ru/"
 
-# Примеры запросов из модуля
+# Примеры запросов
 #1
     def get_api_key(self, email, password):
         """Этот метод позволяет получить ключ API, который следует использовать для других методов API.
@@ -103,7 +103,7 @@ class PetFriends:
         return status, result
 
 
-# Запросы самостоятельного задания
+# Прочие запросы
 # 00
     def get_api_key_for_emty_list(self, email, password):
         """Этот метод позволяет получить ключ API, который следует использовать для других методов API.
