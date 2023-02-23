@@ -70,7 +70,7 @@ def test_successful_update_self_pet_info(name='Goga', animal_type='smurf', age=1
         raise Exception("There is no my pets")
 
 
-# Тесты для самостоятельного задания
+# Тесты 2
 # 01
 def test_get_api_key_for_valid_user_and_invalid_password(email=valid_email, password=invalid_password):
     """ Проверяем, что запрос api ключа возвращает статус 403 при условии, что auth_key неверный"""
